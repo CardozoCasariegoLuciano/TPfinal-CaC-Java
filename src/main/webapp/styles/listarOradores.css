@@ -1,0 +1,23 @@
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  min-height: calc(100vh - 96px - 216px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 10px 0px 10px;
+}
+
+a {
+  color: #18093e;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
